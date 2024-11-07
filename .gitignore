@@ -1,0 +1,13 @@
+# Ignore environment files
+.env
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+git rm -r --cached .env
+git rm -r --cached node_modules
+git rm -r --cached package-lock.json
+git rm -r --cached yarn.lock
